@@ -10,7 +10,7 @@ namespace GroupTotals
         public string GroupTotals(string[] strArr)
         {
             var dicc = new Dictionary<string, int>();
-            var newStrArr = new List<string>();
+
             foreach (var item in strArr)
             {
                 var convert = item.Split(':');
